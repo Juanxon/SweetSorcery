@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5102385973761688497
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.386317
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.3863163
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.1536627
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.8969092
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.567613
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30.800415
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8535482
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000032220548
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5210139
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001966771
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 62.801
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c8f2772486d21434aa2ec3e341f38c72, type: 2}
+    - target: {fileID: 919132149155446097, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      propertyPath: m_Name
+      value: Gominola (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6497363e56ba99640868481a31ea1f39,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3268236150234090190}
+  m_SourcePrefab: {fileID: 100100000, guid: 6497363e56ba99640868481a31ea1f39, type: 3}
+--- !u!1 &5336265089870560992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6497363e56ba99640868481a31ea1f39,
+    type: 3}
+  m_PrefabInstance: {fileID: 5102385973761688497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3268236150234090190
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5336265089870560992}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18053278, y: 0.13337326, z: 0.18}
+  m_Center: {x: 0.0040688957, y: 0.06059302, z: 0}
